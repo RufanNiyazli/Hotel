@@ -1,0 +1,329 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Open Sans", sans-serif;
+}
+img {
+  object-fit: cover;
+}
+header {
+  width: 1200px;
+  height: 40px;
+  margin: 10px auto;
+  padding: 0px 20px;
+  display: flex;
+}
+.logo {
+  width: 40%;
+  padding-right: 40%;
+}
+.logo img {
+  height: 32px;
+}
+.menu {
+  width: 60%;
+}
+.menu ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-left: 19%;
+  height: 40px;
+}
+.menu li {
+  display: flex;
+}
+.second img {
+  height: 35px;
+}
+/* Todo: header*/
+.container {
+  width: 1200px;
+
+  margin: 0px auto;
+  padding: 20px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.head {
+  width: 546px;
+  padding-right: 80px;
+  height: 100px;
+}
+.head h1 {
+  font-weight: 600;
+  font-size: 40px;
+}
+.head p {
+  margin-top: 10px;
+  font-weight: 200;
+  font-size: 15px;
+}
+.date {
+  width: 400px;
+  height: 200px;
+  padding-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  transition: 0.3s;
+}
+/* .date:hover {
+  box-shadow: 0px 22px 38px rgba(0, 34, 19, 0.04);
+}
+.head:hover {
+  box-shadow: 0px 22px 38px rgba(0, 34, 19, 0.04);
+} */
+.date-item {
+  width: 40%;
+  height: 30px;
+  border-radius: 8px;
+  background-color: #fafafa;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+.date-item img {
+  margin-right: 30px;
+}
+.big {
+  width: 92%;
+  position: relative;
+}
+.big::after {
+  content: url(./img/search.png);
+  position: absolute;
+  background-color: blue;
+  right: 0px;
+  border-radius: 8px;
+}
+/*Todo:first*/
+
+.image-item {
+  width: 80%;
+}
+.image-item img {
+  border-radius: 8px;
+}
+.big-image {
+  width: 150%;
+  margin-right: 20px;
+  position: relative;
+}
+.big-image::after {
+  content: "Wagstaffe NSW, Australia";
+  position: absolute;
+  left: 35%;
+  top: 85%;
+  font-size: 30px;
+  color: white;
+}
+.big-image img {
+  width: 900px;
+}
+.image-box {
+  width: 100%;
+  height: 270px;
+  margin-top: 8px;
+}
+.image-item .top {
+  margin-top: 5px;
+}
+.image-box img {
+  width: 100%;
+  height: 100%;
+}
+/*! service */
+
+.main {
+  display: block;
+  height: 150px;
+}
+.service {
+  width: 1200px;
+  height: 400px;
+  display: flex;
+  margin-top: 70px;
+}
+.service-item {
+  width: 25%;
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  margin-top: 30px;
+}
+.service-item span {
+  font-size: 16px;
+  color: lightgrey;
+  text-align: center;
+}
+
+/* !service end */
+.resort {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.hotel {
+  width: 49%;
+  height: 70%;
+}
+.hotel img {
+  width: 100%;
+  height: 100%;
+}
+.hotel-head {
+  padding: 15px;
+}
+.hotel .head {
+  width: 500px;
+}
+.hotel p {
+  width: 500px;
+  margin-top: 40px;
+}
+.clients {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+.clients h1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.clients h1 span {
+  font-size: 14px;
+  font-weight: 100;
+  margin-top: 5px;
+}
+/* !resort end */
+.company-logo {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 50px;
+  display: flex;
+  margin-top: 50px;
+}
+.logos {
+  width: 20%;
+  height: 80px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logos img {
+  width: 60%;
+}
+/* !resort end */
+
+/* !comment star */
+.comment {
+  width: 100%;
+
+  margin: 0px auto;
+
+  display: flex;
+}
+.comment-img {
+  width: 50%;
+  height: 380px;
+}
+.comment-img img {
+  width: 100%;
+  height: 100%;
+}
+.comment-text {
+  width: 50%;
+  height: 380px;
+  background: rgba(249, 209, 92, 1);
+  font-size: 17px;
+  font-style: italic;
+  font-weight: 100;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 130px;
+}
+.comment-text span {
+  margin-bottom: 20px;
+  font-size: 10px;
+}
+/* !comment end */
+/* *quality start */
+.quality {
+  width: 100%;
+  height: 800px;
+  padding: 100px 20px;
+}
+.quality .head {
+  font-size: 35px;
+  margin: 0px;
+  padding: 0px;
+}
+.star {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-evenly;
+}
+.quality  span:not(.view ) {
+  border: 1px solid black;
+  border-radius: 30px;
+  padding: 3px 13px;
+}
+.view {
+  width: 52%;
+  text-align: right;
+  color: blue;
+  text-decoration: underline 2px;
+}
+.carts {
+  width: 100%;
+  height: 700px;
+ margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.hotel-cart {
+  width: 30%;
+  height: 59%;
+  border: 1px solid lightgrey;
+  padding: 10px 15px;
+}
+.hotel-cart img {
+  width: 100%;
+  height: 50%;
+}
+.hotel-cart h3 {
+  font-size: 17px;
+  font-weight: 600;
+  text-align: center;
+}
+.hotel-cart p {
+  font-size: 14px;
+  font-weight: 300;
+margin-bottom: 50px;
+  margin-top: 8px;
+}
+.hotel-cart h2{
+  font-size: 19px;
+ color: #3771C8;
+  display: inline;
+}
+
+.hotel-cart button{
+  border-radius: 5px;
+  background-color: #3771C8;
+  padding: 5px 10px;
+  color: white;
+  margin-left: 100px;
+}
